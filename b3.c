@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int number,money;
-    float tiendoi;
+    float ce;
    
     printf("==============CHUONG TRINH CHUYEN DOI TIEN TE=============\n");
     printf("1. USD to VND\n");
@@ -17,36 +17,36 @@ int main(){
     scanf("%d",&money);
     switch (number){
         case 1:
-        tiendoi=23.500*money;
-        printf("%d USD = %.2f VND",money,tiendoi);
+        ce=23.500*money;
+        printf("%d USD = %.2f VND",money,ce);
         break;
         case 2:
-        tiendoi=25.000*money;
-        printf("%d EUR = %.2f VND",money,tiendoi);
+        ce=25.000*money;
+        printf("%d EUR = %.2f VND",money,ce);
         break;
         case 3:
-        tiendoi=28.000*money;
-        printf("%d GBP = %.3f VND",money,tiendoi);
+        ce=28.000*money;
+        printf("%d GBP = %.3f VND",money,ce);
         break;
         case 4:
-        tiendoi=0.180*money;
-        printf("%d JPY = %.3f VND",money,tiendoi);
+        ce=0.180*money;
+        printf("%d JPY = %.3f VND",money,ce);
         break;
         case 5:
-        tiendoi=money / 23.500;
-        printf("%d VND = %.3f USD ",money,tiendoi);
+        ce=money / 23.500;
+        printf("%d VND = %.3f USD ",money,ce);
         break;
         case 6:
-        tiendoi=money/25.000;
-        printf("%d VND = %.3f EUR",money,tiendoi);
+        ce=money/25.000;
+        printf("%d VND = %.3f EUR",money,ce);
         break;
         case 7:
-        tiendoi=money/28.000;
-        printf("%d VND = %.3f GBP",money,tiendoi);
+        ce=money/28.000;
+        printf("%d VND = %.3f GBP",money,ce);
         break;
         case 8:
-        tiendoi=money/0.18;
-        printf("%d VND = %.3f JPY",money,tiendoi);
+        ce=money/0.18;
+        printf("%d VND = %.3f JPY",money,ce);
         break;
     }
     return 0;
