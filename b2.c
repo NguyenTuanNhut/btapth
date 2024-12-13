@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main (){
-    float luong,giolam,tong,phucap;
-    printf("nhap so giolam:");
-    scanf("%f",&giolam);
-    printf("nhap so luong:");
-    scanf("%f",&luong);
-    phucap=0;
-    if(giolam>160){
-        tong=luong*giolam;
-        phucap=0.1*tong;
-        printf("tien phu cap la:%.3f\n",phucap);
+    float sl,time,tt,bonus;
+    printf("nhap so time:");
+    scanf("%f",&time);
+    printf("nhap so sl:");
+    scanf("%f",&sl);
+    bonus=0;
+    if(time>160){
+        tt=sl*time;
+        bonus=0.1*tt;
+        printf("tien phu cap la:%.3f\n",bonus);
     }
     else{
-        tong=luong*giolam;
+        tt=sl*time;
     }
-    printf("tong so tien luong la:%.3f",tong);
+    printf("tt so tien sl la:%.3f",tt);
 
     return 0;
 }
